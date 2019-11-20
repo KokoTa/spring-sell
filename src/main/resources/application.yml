@@ -1,0 +1,21 @@
+spring:
+  datasource:
+    driver-class-name: com.mysql.cj.jdbc.Driver
+    url: jdbc:mysql://127.0.0.1:3306/test?serverTimezone=Asia/Shanghai
+    username: root
+    password: 123456
+  jpa:
+    show-sql: true
+
+server:
+  servlet:
+    context-path: /sell
+
+# logback 在该文件下可以做简单配置，详细配置可以使用 logback-spring.xml 文件
+# logging:
+#   # pattern:
+#     # console: "%d - %msg%n" # 日期 - 信息\n
+#   file:
+#     name: ./log/sell.log
+#   level:
+#     root: info
