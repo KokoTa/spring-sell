@@ -12,7 +12,7 @@ import lombok.Data;
  * ProductCategory
  */
 @Entity
-@DynamicUpdate
+@DynamicUpdate // 动态更新，传入什么值就更新什么值
 @Data // 可以省去写 getter/setter/toString...
 public class ProductCategory {
 
