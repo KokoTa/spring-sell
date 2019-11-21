@@ -614,3 +614,5 @@ Caused by: org.springframework.data.mapping.PropertyReferenceException: No prope
 	at org.springframework.data.repository.query.parser.PartTree.<init>(PartTree.java:96)
 	at org.springframework.data.jpa.repository.query.PartTreeJpaQuery.<init>(PartTreeJpaQuery.java:96)
 	... 104 common frames omitted
+Unknown column 'productinf0_.product_status' in 'field list'
+Unknown column 'productinf0_.product_status' in 'field list'
