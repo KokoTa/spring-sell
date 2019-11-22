@@ -2,6 +2,7 @@ package com.example.demo.service;
 
 import java.util.List;
 
+import com.example.demo.dto.CartDTO;
 import com.example.demo.entity.ProductInfo;
 
 import org.springframework.data.domain.Page;
@@ -22,7 +23,9 @@ public interface ProductService {
   ProductInfo save(ProductInfo productInfo);
 
   // 加减库
+  void increaseStock(List<CartDTO> cartDTOList);
 
   // 减库存
+  void decreaseStock(List<CartDTO> cartDTOList);
 
 }

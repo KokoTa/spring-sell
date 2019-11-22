@@ -3,7 +3,8 @@ package com.example.demo.vo;
 import lombok.Data;
 
 /**
- * Http 请求返回的最外层对象 ResultVo
+ * value object
+ * 返回值对象，Http 请求返回的最外层对象
  */
 @Data
 public class ResultVo<T> {
