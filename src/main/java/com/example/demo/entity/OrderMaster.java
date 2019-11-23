@@ -9,6 +9,8 @@ import javax.persistence.Id;
 import com.example.demo.enums.OrderStatusEnum;
 import com.example.demo.enums.PayStatusEnum;
 
+import com.example.demo.utils.Date2LongSerializer;
+import com.fasterxml.jackson.databind.annotation.JsonSerialize;
 import org.hibernate.annotations.DynamicInsert;
 import org.hibernate.annotations.DynamicUpdate;
 

@@ -22,7 +22,7 @@ public interface ProductService {
 
   ProductInfo save(ProductInfo productInfo);
 
-  // 加减库
+  // 加库存
   void increaseStock(List<CartDTO> cartDTOList);
 
   // 减库存

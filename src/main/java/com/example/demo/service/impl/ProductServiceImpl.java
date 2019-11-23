@@ -16,6 +16,8 @@ import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 
+import javax.swing.text.html.Option;
+
 /**
  * ProductServiceImpl
  */
@@ -53,7 +55,18 @@ public class ProductServiceImpl implements ProductService {
 
   @Override
   public void increaseStock(List<CartDTO> cartDTOList) {
+    for (CartDTO cartDTO: cartDTOList) {
+      Optional<ProductInfo> opt = repository.findById(cartDTO.getProductId());
+      if (opt.isPresent()) {
+         ProductInfo productInfo = opt.get();
+         Integer result = productInfo.getProductStock() + cartDTO.getProductQuantity();
 
+        productInfo.setProductStock(result);
+        repository.save(productInfo);
+      } else {
+        throw new SellException(ResultEnum.PRODUCT_NOT_EXIST);
+      }
+    }
   }
 
   @Override

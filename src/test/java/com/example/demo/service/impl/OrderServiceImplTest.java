@@ -3,6 +3,8 @@ package com.example.demo.service.impl;
 import com.example.demo.dto.OrderDTO;
 import com.example.demo.entity.OrderDetail;
 import com.example.demo.entity.OrderMaster;
+import com.example.demo.enums.OrderStatusEnum;
+import com.example.demo.enums.PayStatusEnum;
 import lombok.extern.slf4j.Slf4j;
 import org.junit.Assert;
 import org.junit.jupiter.api.Test;
@@ -32,6 +34,8 @@ class OrderServiceImplTest {
 
     private final String OPENID = "openid";
 
+    private final String ORDERID = "1574408108620149070";
+
     @Test
     void create() {
         OrderDTO orderDTO = new OrderDTO();
@@ -60,7 +64,7 @@ class OrderServiceImplTest {
 
     @Test
     void findOne() {
-        OrderDTO result = service.findOne("1574408108620149070");
+        OrderDTO result = service.findOne(ORDERID);
         log.info("[查询订单]：result={}", result);
     }
 
@@ -73,13 +77,22 @@ class OrderServiceImplTest {
 
     @Test
     void cancel() {
+        OrderDTO orderDTO = service.findOne(ORDERID);
+        OrderDTO result = service.cancel(orderDTO);
+        Assert.assertEquals(OrderStatusEnum.CANCEL.getCode(), result.getOrderStatus());
     }
 
     @Test
     void finish() {
+        OrderDTO orderDTO = service.findOne(ORDERID);
+        OrderDTO result = service.finish(orderDTO);
+        Assert.assertEquals(OrderStatusEnum.FINISH.getCode(), result.getOrderStatus());
     }
 
     @Test
     void paid() {
+        OrderDTO orderDTO = service.findOne(ORDERID);
+        OrderDTO result = service.paid(orderDTO);
+        Assert.assertEquals(PayStatusEnum.SUCCESS.getCode(), result.getPayStatus());
     }
 }
