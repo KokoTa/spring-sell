@@ -1,8 +1,10 @@
 package com.example.demo.handler;
 
 import com.example.demo.exception.AspectException;
+import org.springframework.http.HttpStatus;
 import org.springframework.web.bind.annotation.ControllerAdvice;
 import org.springframework.web.bind.annotation.ExceptionHandler;
+import org.springframework.web.bind.annotation.ResponseStatus;
 
 /**
  * @author KokoTa
@@ -12,7 +14,8 @@ import org.springframework.web.bind.annotation.ExceptionHandler;
 public class AspectExceptionHandler {
 
     @ExceptionHandler(value = AspectException.class)
-    public String handleAspectException() {
-        return "我不会返回正常消息，因为我被拦截啦！";
+    @ResponseStatus(HttpStatus.FORBIDDEN)
+    public void handleAspectException() {
+        System.out.println("我拦截了 AspectException 错误");
     }
 }

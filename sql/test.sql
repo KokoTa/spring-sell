@@ -11,7 +11,7 @@
  Target Server Version : 80017
  File Encoding         : 65001
 
- Date: 22/11/2019 16:47:46
+ Date: 26/11/2019 17:08:07
 */
 
 SET NAMES utf8mb4;
@@ -271,7 +271,7 @@ CREATE TABLE `product_category`  (
   `create_time` datetime(0) NOT NULL DEFAULT CURRENT_TIMESTAMP COMMENT '创建时间',
   `update_time` datetime(0) NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP(0) COMMENT '更新时间',
   PRIMARY KEY (`category_id`, `category_type`) USING BTREE
-) ENGINE = InnoDB AUTO_INCREMENT = 33 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+) ENGINE = InnoDB AUTO_INCREMENT = 32 CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
 
 -- ----------------------------
 -- Records of product_category
@@ -304,6 +304,25 @@ CREATE TABLE `product_info`  (
 INSERT INTO `product_info` VALUES ('1111', '可乐', 3.20, 990, '肥宅快乐水', 'http://xxx.com', 0, 2, '2019-11-21 14:37:37', '2019-11-22 15:35:08');
 INSERT INTO `product_info` VALUES ('1234', '雪碧', 2.50, 990, '肥宅快乐水', 'http://xxx.com', 0, 2, '2019-11-21 15:35:15', '2019-11-22 15:35:08');
 INSERT INTO `product_info` VALUES ('2222', '电脑', 2000.00, 10, '普通电脑', 'http://ooo.com', 0, 3, '2019-11-21 17:51:15', '2019-11-21 17:51:15');
+
+-- ----------------------------
+-- Table structure for seller_info
+-- ----------------------------
+DROP TABLE IF EXISTS `seller_info`;
+CREATE TABLE `seller_info`  (
+  `seller_id` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `username` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `password` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `openid` varchar(32) CHARACTER SET utf8 COLLATE utf8_general_ci NOT NULL,
+  `create_time` datetime(0) NOT NULL DEFAULT CURRENT_TIMESTAMP,
+  `update_time` datetime(0) NOT NULL DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP(0),
+  PRIMARY KEY (`seller_id`) USING BTREE
+) ENGINE = InnoDB CHARACTER SET = utf8 COLLATE = utf8_general_ci ROW_FORMAT = Dynamic;
+
+-- ----------------------------
+-- Records of seller_info
+-- ----------------------------
+INSERT INTO `seller_info` VALUES ('1574732074184181758', 'admin', 'admin', 'abc', '2019-11-26 09:34:34', '2019-11-26 09:34:34');
 
 -- ----------------------------
 -- Table structure for staff

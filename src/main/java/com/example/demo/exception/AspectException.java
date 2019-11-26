@@ -13,11 +13,13 @@ public class AspectException extends RuntimeException {
         super(resultEnum.getMsg());
 
         this.code = resultEnum.getCode();
+        this.msg = resultEnum.getMsg();
     }
 
     public AspectException(Integer code, String defaultMessage) {
         super(defaultMessage);
 
         this.code = code;
+        this.msg = defaultMessage;
     }
 }
