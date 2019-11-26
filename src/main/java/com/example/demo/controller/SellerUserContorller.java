@@ -6,10 +6,10 @@ import com.example.demo.entity.SellerInfo;
 import com.example.demo.exception.ResultEnum;
 import com.example.demo.exception.SellException;
 import com.example.demo.service.SellerService;
+import com.example.demo.service.Websocket;
 import com.example.demo.utils.CookieUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.redis.core.StringRedisTemplate;
-import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
@@ -35,6 +35,9 @@ public class SellerUserContorller {
     @Autowired
     private StringRedisTemplate stringRedisTemplate;
 
+    @Autowired
+    private Websocket websocket;
+
     @GetMapping("/login")
     public String login(@RequestParam("openid") String openid, HttpServletResponse response) {
         // openid 和 数据库去匹配
@@ -52,6 +55,8 @@ public class SellerUserContorller {
 
         // 设置 token 到 cookie
         CookieUtil.set(response, CookieConstant.TOKEN, token, expire);
+
+        websocket.sendMessage("登录提示");
 
         return "登录成功";
     }

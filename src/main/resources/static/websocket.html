@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Document</title>
+    <script src="https://cdn.bootcss.com/axios/0.19.0-beta.1/axios.min.js"></script>
+  </head>
+  <body>
+    <script>
+      const websocket = new WebSocket("ws://localhost:8080/sell/websocket");
+
+      websocket.onopen = () => {
+        console.log("open");
+      };
+
+      websocket.onclose = () => {
+        console.log("close");
+      };
+
+      window.onbeforeunload = () => {
+        websocket.close();
+      };
+
+      websocket.onmessage = msg => {
+        console.log(msg.data);
+      };
+
+      axios.get("http://localhost:8080/sell/seller/login?openid=abc");
+    </script>
+  </body>
+</html>
