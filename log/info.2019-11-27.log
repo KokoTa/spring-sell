@@ -1060,3 +1060,829 @@ LiveReload server is running on port 35729
 Starting ProtocolHandler ["http-nio-8080"]
 Tomcat started on port(s): 8080 (http) with context path '/sell'
 Started DemoApplication in 6.762 seconds (JVM running for 8.81)
+Starting DemoApplication on DESKTOP-GVOVGN3 with PID 5360 (started by KokoTa in E:\BaiduNetdiskDownload\Program Files\spring-sell)
+No active profile set, falling back to default profiles: default
+The Class-Path manifest attribute in C:\Users\KokoTa\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 43ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.OrderMasterRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.SellerInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.27]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1051 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate Core {5.4.8.Final}
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started DemoApplication in 3.293 seconds (JVM running for 3.888)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 5 ms
+Starting without optional epoll library
+Starting without optional kqueue library
+Starting DemoApplication on DESKTOP-GVOVGN3 with PID 10752 (started by KokoTa in E:\BaiduNetdiskDownload\Program Files\spring-sell)
+No active profile set, falling back to default profiles: default
+The Class-Path manifest attribute in C:\Users\KokoTa\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 42ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.OrderMasterRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.SellerInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.27]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1035 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate Core {5.4.8.Final}
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started DemoApplication in 3.243 seconds (JVM running for 3.822)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 4 ms
+Starting without optional epoll library
+Starting without optional kqueue library
+Starting DemoApplication on DESKTOP-GVOVGN3 with PID 10504 (started by KokoTa in E:\BaiduNetdiskDownload\Program Files\spring-sell)
+No active profile set, falling back to default profiles: default
+The Class-Path manifest attribute in C:\Users\KokoTa\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 47ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.OrderMasterRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.SellerInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.27]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1152 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate Core {5.4.8.Final}
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started DemoApplication in 3.38 seconds (JVM running for 3.932)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 4 ms
+Starting without optional epoll library
+Starting without optional kqueue library
+Starting DemoApplication on DESKTOP-GVOVGN3 with PID 11176 (started by KokoTa in E:\BaiduNetdiskDownload\Program Files\spring-sell)
+No active profile set, falling back to default profiles: default
+The Class-Path manifest attribute in C:\Users\KokoTa\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 42ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.OrderMasterRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.SellerInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.27]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1058 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate Core {5.4.8.Final}
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started DemoApplication in 3.274 seconds (JVM running for 3.868)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 6 ms
+Starting without optional epoll library
+Starting without optional kqueue library
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Starting DemoApplication on DESKTOP-GVOVGN3 with PID 9568 (started by KokoTa in E:\BaiduNetdiskDownload\Program Files\spring-sell)
+No active profile set, falling back to default profiles: default
+The Class-Path manifest attribute in C:\Users\KokoTa\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 44ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.OrderMasterRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.SellerInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 12ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.27]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1113 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate Core {5.4.8.Final}
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started DemoApplication in 3.653 seconds (JVM running for 4.27)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 5 ms
+Starting without optional epoll library
+Starting without optional kqueue library
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Starting DemoApplication on DESKTOP-GVOVGN3 with PID 768 (started by KokoTa in E:\BaiduNetdiskDownload\Program Files\spring-sell)
+No active profile set, falling back to default profiles: default
+The Class-Path manifest attribute in C:\Users\KokoTa\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 41ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.OrderMasterRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.SellerInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 7ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.27]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1122 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate Core {5.4.8.Final}
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started DemoApplication in 3.341 seconds (JVM running for 3.959)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 4 ms
+Starting without optional epoll library
+Starting without optional kqueue library
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Resolved [com.example.demo.exception.SellException: 抢不到锁啊！]
+Starting DemoApplication on DESKTOP-GVOVGN3 with PID 6756 (started by KokoTa in E:\BaiduNetdiskDownload\Program Files\spring-sell)
+No active profile set, falling back to default profiles: default
+The Class-Path manifest attribute in C:\Users\KokoTa\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 44ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.OrderMasterRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.SellerInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.27]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1085 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate Core {5.4.8.Final}
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started DemoApplication in 3.477 seconds (JVM running for 4.045)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 5 ms
+Starting without optional epoll library
+Starting without optional kqueue library
+Starting DemoApplication on DESKTOP-GVOVGN3 with PID 6500 (started by KokoTa in E:\BaiduNetdiskDownload\Program Files\spring-sell)
+No active profile set, falling back to default profiles: default
+The Class-Path manifest attribute in C:\Users\KokoTa\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.2\jaxb-runtime-2.3.2.jar referenced one or more files that do not exist: file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.xml.bind-api-2.3.2.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/txw2-2.3.2.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/istack-commons-runtime-3.0.8.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/stax-ex-1.8.1.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/FastInfoset-1.2.16.jar,file:/C:/Users/KokoTa/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.2/jakarta.activation-api-1.2.1.jar
+Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Finished Spring Data repository scanning in 43ms. Found 5 repository interfaces.
+Multiple Spring Data modules found, entering strict repository configuration mode!
+Bootstrapping Spring Data repositories in DEFAULT mode.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.OrderDetailRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.OrderMasterRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.ProductCategoryRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.ProductInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Spring Data Redis - Could not safely identify store assignment for repository candidate interface com.example.demo.dao.SellerInfoRepository. If you want this repository to be a Redis repository, consider annotating your entities with one of these annotations: org.springframework.data.redis.core.RedisHash (preferred), or consider extending one of the following types with your repository: org.springframework.data.keyvalue.repository.KeyValueRepository.
+Finished Spring Data repository scanning in 8ms. Found 0 repository interfaces.
+Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+Tomcat initialized with port(s): 8080 (http)
+Initializing ProtocolHandler ["http-nio-8080"]
+Starting service [Tomcat]
+Starting Servlet engine: [Apache Tomcat/9.0.27]
+Initializing Spring embedded WebApplicationContext
+Root WebApplicationContext: initialization completed in 1180 ms
+HikariPool-1 - Starting...
+HikariPool-1 - Start completed.
+HHH000204: Processing PersistenceUnitInfo [name: default]
+HHH000412: Hibernate Core {5.4.8.Final}
+HCANN000001: Hibernate Commons Annotations {5.1.0.Final}
+HHH000400: Using dialect: org.hibernate.dialect.MySQL8Dialect
+HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+Initialized JPA EntityManagerFactory for persistence unit 'default'
+spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+Initializing ExecutorService 'applicationTaskExecutor'
+LiveReload server is running on port 35729
+Starting ProtocolHandler ["http-nio-8080"]
+Tomcat started on port(s): 8080 (http) with context path '/sell'
+Started DemoApplication in 3.43 seconds (JVM running for 4.003)
+Initializing Spring DispatcherServlet 'dispatcherServlet'
+Initializing Servlet 'dispatcherServlet'
+Completed initialization in 5 ms
+Starting without optional epoll library
+Starting without optional kqueue library

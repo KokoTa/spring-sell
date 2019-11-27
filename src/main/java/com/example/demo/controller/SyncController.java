@@ -12,8 +12,13 @@ import java.util.Map;
 
 /**
  * 模拟并发订单
- * 测试代码：ab -n 100 -c 100 http://localhost:8080/sell/count
- * 并发模式下会出现 count 不会等于 900 的问题，此时用 synchronized 可以解决，但是由于是同步锁操作，因此会发现很卡
+ * 测试代码：ab -n 100 -c 100 http://localhost:8080/sell/count 和 ab -n 100 -c 1 http://localhost:8080/sell/count
+ * PS： -n 代表总数 -c 代表并发数
+ *
+ * 并发模式下会出现 count 不会等于 900 的问题
+ * 1. 用 synchronized 来解决问题，但是由于是同步锁操作，因此会发现很卡
+ * 2. 用 redis 锁来解决问题，但并发模式下，只有一个线程能处理逻辑，其他线程直接抛出错误
+ *
  * @author KokoTa
  * @create 2019/11/27
  */

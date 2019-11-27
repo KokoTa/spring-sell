@@ -15,6 +15,8 @@ import com.example.demo.vo.ResultVo;
 
 import org.springframework.beans.BeanUtils;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.cache.annotation.CacheConfig;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
@@ -24,6 +26,7 @@ import org.springframework.web.bind.annotation.RestController;
  */
 @RestController
 @RequestMapping("/buyer/product")
+@CacheConfig(cacheNames = "product")
 public class BuyerProductController {
 
   @Autowired
@@ -33,6 +36,11 @@ public class BuyerProductController {
   private CategoryService cService;
 
   @GetMapping("/list")
+  // 获取列表时会进行缓存，当然，更新数据的时候需要更新缓存，需要用到 @CachePut(cacheNames = "productList", key = "123") 注解，这个注解会把返回值填到 redis 中，注意 @Cacheable 和 @CachePut 的返回值对象类型要相同
+  // @CacheEvict(cacheNames = "productList", key = "123") 会先清除 redis 对应的内容，然后新增自定义对象，如果有一个更新接口只更新了列表中的某个对象，那么就应该使用 @CacheEvict
+  // key 如果不填默认为传入的第一个参数，为了防止出现问题，key 我们规定必填
+  // PS：动态传参：@Cacheable(key="#id", condition="#id.length() > 0 && #rest.getCode() == 0") public ResultVo<Object> list(@RequestParam("id") String id) { ... }
+  @Cacheable(key = "123") // 这里把 cacheNames 提升到上面了
   public ResultVo<Object> list() {
 
     // 1. 查询所有上架的商品

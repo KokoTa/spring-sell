@@ -9,7 +9,7 @@ spring:
   jackson:
     default-property-inclusion: non_null
   redis:
-    host: 192.168.0.126
+    host: 192.168.3.58
     port: 6379
 
 server:
