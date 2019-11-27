@@ -25,6 +25,7 @@ server:
 #   level:
 #     root: info
 
+
 wechat:
   mpAppId: wx5491f7ad52c421aa
   mpAppSecret: appSecret
@@ -32,3 +33,7 @@ wechat:
   mchKey: mchKey
   keyPath: /xxx/xxx/xx.p12 # 证书路径
   notifyUrl: http://localhost:8080/sell/pay/notify # 支付通知地址
+
+logging:
+  level:
+    com.example.demo.entity.mapper: trace
