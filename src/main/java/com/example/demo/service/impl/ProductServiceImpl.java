@@ -55,6 +55,10 @@ public class ProductServiceImpl implements ProductService {
 
   @Override
   public void increaseStock(List<CartDTO> cartDTOList) {
+    /**
+     * findById 会返回 Optional对象，除了下面的写法，还可以这样写：
+     * repository.findById(cartDTO.getProductId()).orElse(null)
+     */
     for (CartDTO cartDTO: cartDTOList) {
       Optional<ProductInfo> opt = repository.findById(cartDTO.getProductId());
       if (opt.isPresent()) {

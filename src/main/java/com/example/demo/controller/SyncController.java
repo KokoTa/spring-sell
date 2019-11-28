@@ -2,13 +2,9 @@ package com.example.demo.controller;
 
 import com.example.demo.exception.SellException;
 import com.example.demo.service.RedisLock;
-import com.example.demo.utils.KeyUtil;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
-
-import java.util.HashMap;
-import java.util.Map;
 
 /**
  * 模拟并发订单
