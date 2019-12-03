@@ -1,0 +1,13 @@
+spring:
+  devtools:
+    restart:
+      enabled: true
+      additional-paths: src/main/java
+
+custom:
+  desc: Hello
+
+server:
+  port: 8080
+  servlet:
+    context-path: /api
