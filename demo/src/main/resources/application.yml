@@ -3,6 +3,16 @@ spring:
     restart:
       enabled: true
       additional-paths: src/main/java
+  datasource: # 使用阿里的数据源
+    druid:
+      driver-class-name: com.mysql.cj.jdbc.Driver
+      url: jdbc:mysql://127.0.0.1:3306/douyin?serverTimezone=Asia/Shanghai&useSSL=false
+      username: root
+      password: 123456
+      initial-size: 1
+      min-idle: 1
+      max-active: 20
+      test-on-borrow: true
 
 custom:
   desc: Hello
@@ -11,3 +21,21 @@ server:
   port: 8080
   servlet:
     context-path: /api
+
+# 使用插件后会根据数据库生成 实体对象 和 mapper 文件
+# mybatis 配置
+mybatis:
+  type-aliases-package: com.example.demo.entity # 以 java 为根
+  mapper-locations: classpath:mapper/*.xml # 以 resource 为根
+# 通用 mapper
+mapper:
+  mappers:
+    - com.example.demo.utils.MyMapper
+  not-empty: false
+  identity: MYSQL
+# 分页插件配置
+pagehelper:
+  helperDialect: mysql
+  reasonable: true
+  supportMethodsArguments: true
+  params: count=countSql
