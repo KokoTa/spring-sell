@@ -14,7 +14,7 @@ import org.mybatis.generator.exception.XMLParserException;
 import org.mybatis.generator.internal.DefaultShellCallback;
 
 /**
- * Mybatis 生成器 GeneratorDisplay
+ * Mybatis 生成器：GeneratorDisplay
  */
 public class GeneratorDisplay {
 

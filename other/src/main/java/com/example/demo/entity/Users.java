@@ -2,6 +2,11 @@ package com.example.demo.entity;
 
 import javax.persistence.*;
 
+import com.fasterxml.jackson.annotation.JsonInclude;
+
+@Entity
+// 不返回 null
+@JsonInclude(JsonInclude.Include.NON_NULL)
 public class Users {
     @Id
     private String id;

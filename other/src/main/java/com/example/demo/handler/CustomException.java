@@ -15,7 +15,7 @@ public class CustomException {
     @ExceptionHandler(value = Exception.class)
     @ResponseBody
     public Object exceptionHandler(Exception e) {
-        System.out.println(123);
+        System.out.println(e);
 
         ResultVo result = new ResultVo();
         result.setCode(500);

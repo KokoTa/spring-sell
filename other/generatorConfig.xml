@@ -8,6 +8,7 @@
         <property name="beginningDelimiter" value="`"/>
         <property name="endingDelimiter" value="`"/>
 
+        <!-- 给 mapper 注入常用方法，比如 insert -->
         <plugin type="tk.mybatis.mapper.generator.MapperPlugin">
             <property name="mappers" value="com.example.demo.utils.MyMapper"/>
         </plugin>

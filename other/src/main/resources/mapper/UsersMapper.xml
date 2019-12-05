@@ -14,4 +14,9 @@
     <result column="follow_counts" jdbcType="INTEGER" property="followCounts" />
     <result column="receive_like_counts" jdbcType="INTEGER" property="receiveLikeCounts" />
   </resultMap>
+
+  <!-- 自定义查询 -->
+  <select id="findCustomOne" resultMap="BaseResultMap">
+    select username from users where id=#{id}
+  </select>
 </mapper>

@@ -13,6 +13,16 @@ spring:
       min-idle: 1
       max-active: 20
       test-on-borrow: true
+  redis:
+    host: 127.0.0.1
+    port: 6379
+    database: 1
+    jedis:
+      pool:
+        max-active: 1000 # 最大连接数
+        max-wait: 1 # 最大阻塞等待时间
+        max-idle: 10 # 连接池最大空闲连接
+        min-idle: 2
 
 custom:
   desc: Hello
@@ -27,7 +37,7 @@ server:
 mybatis:
   type-aliases-package: com.example.demo.entity # 以 java 为根
   mapper-locations: classpath:mapper/*.xml # 以 resource 为根
-# 通用 mapper
+# 通用 mapper，比如 findById、insert、update 等通用简单的语句
 mapper:
   mappers:
     - com.example.demo.utils.MyMapper
